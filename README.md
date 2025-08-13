@@ -4,7 +4,7 @@ Copyright (c) 2025 Anshika Singh < a25ec09003@iitbbs.ac.in> and Siddhartha S. Bo
 
 This simulator includes and adapts code from the following projects:
 
-1. Flower (flwr) – Federated Learning Framework. Copyright 2020–2025 Flower Labs GmbH (formerly ADAP/University of Oxford). Licensed under the Apache License, Version 2.0. Original source: https://github.com/adap/flower 
+1. Flower (flwr) – Federated Learning Framework. Copyright 2020–2025 Flower Labs GmbH. Licensed under the Apache License, Version 2.0. Original source: https://github.com/adap/flower 
 
 2. LoRaSim – Discrete-event LoRa network simulator. Copyright 2016–2017 Thiemo Voigt & Martin Bor. Licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0). Original source: https://github.com/paafam/LoRaSim  
 
