@@ -17,14 +17,21 @@ This work is licensed under the Creative Commons Attribution 4.0 International L
 Overview:
 
 The program simulates federated learning sessions (a CNN-based digit classification task on the MNIST dataset) assuming that the server is connected to a LoRa gateway and the clients are LoRa end devices. The simulation outputs are as follows (written to a file output.txt): 
+
     1.  The accuracy of the global model at the end of each round 
+    
     2. The round completion time, defined as the time when all sampled clients finish transmitting their local updates
+    
     3. The downlink airtime, which is the total time the server spends transmitting in a round
+    
     4. The cumulative uplink airtime, defined as the total time all sampled clients spend transmitting in a round, aggregated across clients
   
 The input parameters are 
+
     - num_sessions: Number of FL sessions to simulate (final results will be averaged over the sessions)
+    
     - rounds_per_session: Number of training rounds per session   
+    
     - num_clients: Number of clients
     - network_radius: Network radius in meters (clients will be randomly deployed within a circle of this radius, with the server at the origin)
     - spreading_factor_FL: LoRa spreading factor to be used for transmitting FL updates
