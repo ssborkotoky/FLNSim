@@ -3,11 +3,17 @@
 Copyright (c) 2025 Anshika Singh < a25ec09003@iitbbs.ac.in> and Siddhartha S. Borkotoky <siddhartha.borkotoky@gmail.com> All rights reserved for original contributions and modifications.
 
 This simulator includes and adapts code from the following projects:
-Flower (flwr) – Federated Learning Framework. Copyright 2020–2025 Flower Labs GmbH (formerly ADAP/University of Oxford). Licensed under the Apache License, Version 2.0. Original source: https://github.com/adap/flower 
-LoRaSim – Discrete-event LoRa network simulator. Copyright 2016–2017 Thiemo Voigt & Martin Bor. Licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0). Original source: https://github.com/paafam/LoRaSim  
+
+1. Flower (flwr) – Federated Learning Framework. Copyright 2020–2025 Flower Labs GmbH (formerly ADAP/University of Oxford). Licensed under the Apache License, Version 2.0. Original source: https://github.com/adap/flower 
+
+2. LoRaSim – Discrete-event LoRa network simulator. Copyright 2016–2017 Thiemo Voigt & Martin Bor. Licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0). Original source: https://github.com/paafam/LoRaSim  
+
+
 Note: Portions of this code have been modified from their original implementations. We retain all original notices, copyright statements, and license texts.
 This work is licensed under the Creative Commons Attribution 4.0 International License.  To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/.
+
 - ----------------------------------------------------------------------------------------------------
+
 Overview:
 
 The program simulates federated learning sessions (a CNN-based digit classification task on the MNIST dataset) assuming that the server is connected to a LoRa gateway and the clients are LoRa end devices. The simulation outputs are as follows (written to a file output.txt): 
