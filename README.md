@@ -1,4 +1,4 @@
-# FLNSim: A Simulator to Evaluate Federated Learning Over Long Range (LoRa) IoT networks
+# FLNSim: A Simulator to Evaluate Federated Learning Over Long Range (LoRa) IoT Networks
 
 Copyright (c) 2025 Anshika Singh < a25ec09003@iitbbs.ac.in> and Siddhartha S. Borkotoky <siddhartha.borkotoky@gmail.com> All rights reserved for original contributions and modifications.
 
